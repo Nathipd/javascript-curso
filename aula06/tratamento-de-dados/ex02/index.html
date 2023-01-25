@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 1</title>
+</head>
+
+<body>
+
+    <h1>Hello World!</h1>
+
+    <script>
+        var n1 = Number(window.prompt('Digite um número')) //a variável nome recebe o resultado do prompt
+        var n2 = Number(window.prompt('Digite outro número')) //a variável nome recebe o resultado do prompt
+        var soma = n1 + n2
+
+        // window.alert('A soma dos valores é ' + String(soma))
+        window.alert(`A soma entre ${n1} e ${n2} é ${String(soma)}`)
+    </script>
+
+    <style>
+        /* Reset */
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: whitesmoke;
+            font: bold 13pt ubuntu;
+
+            width: 100vw;
+            height: 100vh;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        body h1 {
+            color: rgb(230, 188, 2);
+        }
+    </style>
+
+</body>
+
+</html>

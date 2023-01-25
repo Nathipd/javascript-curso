@@ -1,1 +1,0 @@
-window.alert('Isso é um alerta')
